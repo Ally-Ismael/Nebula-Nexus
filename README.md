@@ -1,7 +1,3 @@
-Here’s the **complete `README.md`** file for the **Waydroid Helper** application. This file provides an overview of the project, setup instructions, and credits the contributors.
-
----
-
 # **Waydroid Helper**  
 **A Lomiri System Settings plugin for managing Waydroid containers and Android apps on Ubuntu Touch.**
 
