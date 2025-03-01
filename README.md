@@ -1,6 +1,8 @@
-# **Waydroid Helper**
+Here’s the **complete `README.md`** file for the **Waydroid Helper** application. This file provides an overview of the project, setup instructions, and credits the contributors.
 
-![Waydroid Helper Logo](https://via.placeholder.com/150)  
+---
+
+# **Waydroid Helper**  
 **A Lomiri System Settings plugin for managing Waydroid containers and Android apps on Ubuntu Touch.**
 
 ---
@@ -25,7 +27,7 @@ The **Waydroid Helper** is a **Lomiri System Settings plugin** designed to simpl
 - Toggle visibility of Waydroid apps in the Ubuntu Touch app drawer.  
 - Automate Waydroid initialization and updates.  
 
-This project was developed as part of the **PyCon Namibia 2025 Hackathon** by **Team Nebula Nexus**.
+This project was developed as part of the **Foss FEST 2025 Hackathon** by **Team Nebula Nexus**.
 
 ---
 
@@ -74,7 +76,13 @@ cd waydroid-helper
    sudo apt install sqlite3
    ```
 
-### **3. Deploy to Ubuntu Touch**
+### **3. Create the Database**
+Run the following command to create the database:
+```bash
+sqlite3 settings.db < database/schema.sql
+```
+
+### **4. Deploy to Ubuntu Touch**
 1. Install the **Lomiri SDK** on your development machine.  
 2. Deploy the QML frontend to your Ubuntu Touch device or emulator.  
 3. Run the Python backend script to handle logic and database interactions.  
@@ -92,7 +100,7 @@ cd waydroid-helper
 
 ## **Contributors**
 
-This project was developed by **Team Nebula Nexus** during the **Foss FEST 2025 Hackathon**.  
+This project was developed by **Team Nebula Nexus** during the **Foss FEST Hackathon**.  
 
 ### **Team Members**
 - **Ismael N Mudjanima**  
@@ -112,7 +120,7 @@ See the [LICENSE](LICENSE) file for details.
 
 ## **Acknowledgments**
 
-- **Foss FEST Hackathon** for organizing the Hackathon.  
+- **PyCon Namibia 2025** for organizing the Hackathon.  
 - **Ubuntu Touch Community** for their support and resources.  
 - **Waydroid Developers** for creating an amazing tool for running Android apps on Linux.  
 
@@ -122,9 +130,12 @@ See the [LICENSE](LICENSE) file for details.
 
 For questions or feedback, please contact:  
 **Team Nebula Nexus**  
-Email: [team@nebulanexus.com](mailto:team@nebulanexus.com)  
-GitHub: [https://github.com/nebulanexus](https://github.com/nebulanexus)  
+Email: [team@nebulanexus.com]
+GitHub: [https://github.com/Ally-Ismael/Nebula-Nexus]
 
 ---
 
 Thank you for using **Waydroid Helper**! 🚀  
+
+---
+
